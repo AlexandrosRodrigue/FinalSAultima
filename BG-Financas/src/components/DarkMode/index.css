@@ -1,0 +1,14 @@
+.icons-sun-moon{
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.rotate {
+    transform: rotate(180deg);
+}
+
+.dark-mode-button{
+    outline: none;
+}	

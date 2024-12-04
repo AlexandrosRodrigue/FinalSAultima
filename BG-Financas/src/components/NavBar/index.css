@@ -1,0 +1,132 @@
+.navbar-container {
+  background-color: #2b9348;
+  transition: all 0.3s ease-in-out;
+}
+
+a {
+  color: var( --color_labels_all);
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-menu {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 30px;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.nav-list {
+  list-style: none;
+  display: none;
+  height: calc(90vh - 45px);
+}
+
+.nav-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  height: auto;
+  width: auto;
+  font-size: 20px;
+}
+
+.icon-home,
+.icon-chart,
+.icon-user-pen {
+  color: #fff;
+  height: 25px;
+  width: 25px;
+  margin-right: 8px;
+}
+
+.nav-list img {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+
+.line-botton {
+  border-bottom: 1px solid #fff;
+  width: 100%;
+}
+
+.div-nome-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-weight: 600;
+  label,span{
+    color: #fff;
+  }
+}
+
+.nav-list.open {
+  display: block;
+}
+
+.escritoBar {
+  color: #fff;
+}
+
+.line1.open {
+  transform: rotate(-45deg) translate(-8px, 8px);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.line2.open {
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.line3.open {
+  transform: rotate(45deg) translate(-5px, -7px);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.divIconsBar .aparecer-icons {
+  display: block;
+  padding-top: 50px;
+}
+
+.divIconsBar .aparecer-icons ul {
+  list-style-type: none;
+}
+
+.divIconsBar .aparecer-icons ul li {
+  margin-bottom: 15px;
+  cursor: pointer;
+  color: #fff;
+}
+.divIconsBar.open .aparecer-icons {
+  display: none;
+}
