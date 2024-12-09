@@ -82,7 +82,7 @@
   }
 }
 
-.inpt-categoria-relatorios {
+.Dois-inpt-categoria-relatorios {
   border: 1px solid #000;
   outline: none;
   background-color: #d9d9d9;
@@ -92,7 +92,7 @@
   padding-left: 10px;
 }
 
-.inpt-categoria {
+.Dois-inpt-categoria {
   height: 35px;
   width: 100%;
   border-radius: 7px;
@@ -101,7 +101,7 @@
   margin-bottom: 7px;
 }
 
-.inpt-categoria::placeholder {
+.Dois-inpt-categoria::placeholder {
   font-family: sans-serif;
   font-size: 14px;
 }
@@ -179,7 +179,7 @@
 .btnEscolhaReal {
   background-color: var(--background_nav_bar);
   /* background-color: var(--background_label_movimentacoes); */
-  color: var(--color_labels_all);
+  color: #000;
   transition: all 0.3s ease-in-out;
   border: none;
   border-radius: 0px 5px 0px 0px;
@@ -196,7 +196,7 @@
   background-color: var(--background_label_movimentacoes);
   /* background-color: var(--background_nav_bar); */
   transition: all 0.3s ease-in-out;
-  color: var(--color_labels_all);
+  color: #fff;
 }
 
 .main-movimentacao {
@@ -205,21 +205,38 @@
   height: 90%;
 }
 
+.labelUltimasMovimentacoes {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 600;
+}
+
 .main-grafico {
   background-color: var(--background_nav_bar);
   transition: all 0.3s ease-in-out;
   height: 90%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-.painel-movimentacoes {
+.dois-painel-movimentacoes {
   margin: 0 auto;
   height: 100%;
   width: 100%;
   border-radius: 0px 5px 5px 0px;
-  background-color: var(--background_painel_movimentacoes);
+  background-color: var(--background_label_movimentacoes);
   box-shadow: 3px 0px 15px 0px #00000025;
+  transition: all 0.3s ease-in-out;
+}
+
+.dois-div-label-movimentacoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  background-color: var(--background_label_movimentacoes);
   transition: all 0.3s ease-in-out;
 }
 
@@ -312,4 +329,18 @@
 
 .mostrar-seletor-grafico.mostrar {
   display: block; 
+}
+
+.divBodyGraficos {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.graficoSemCategoriaImg {
+  width: 90%;
+  height: 70%;
 }

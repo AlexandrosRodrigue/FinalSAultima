@@ -295,7 +295,7 @@
   margin: 0 auto;
   height: 100%;
   width: 95%;
-  background-color: var(--background_painel_movimentacoes);
+  background-color: var(--background_label_movimentacoes);
   box-shadow: 3px 0px 15px 0px #00000025;
   transition: all 0.3s ease-in-out;
 }
@@ -305,21 +305,21 @@
   justify-content: center;
   align-items: center;
   height: 10%;
-  width: 100%;
+  width: 90%;
   background-color: var(--background_label_movimentacoes);
   transition: all 0.3s ease-in-out;
-
-  label {
-    color: var(--color_labels_all);
-    font-size: 23px;
-    font-weight: 600;
-  }
 }
 
+.ultimasPainel {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 600;
+}
 .div-table-movimentacoes {
   width: 100%;
   max-height: 340px;
   overflow-y: auto;
+  background-color: var(--background_painel_movimentacoes);
 }
 
 table {

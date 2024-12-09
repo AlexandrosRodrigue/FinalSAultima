@@ -385,7 +385,7 @@ function Painel() {
 
       <div className="painel-movimentacoes">
         <div className="div-label-movimentacoes">
-          <label>Últimas Movimentações</label>
+          <label className="ultimasPainel">Últimas Movimentações</label>
         </div>
 
         <div className="div-table-movimentacoes">
